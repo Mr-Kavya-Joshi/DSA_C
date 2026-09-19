@@ -6,7 +6,7 @@ struct Node{
 };
 
 void linkedListTraversal(struct Node * ptr){
-    while (ptr!=NULL){
+    while (ptr!=NULL){ //We have taken this condition as ptr points to the address of the next node
         printf("%d ", ptr->data);
         ptr = ptr->next;
     }
